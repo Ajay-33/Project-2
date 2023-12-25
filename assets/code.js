@@ -17,11 +17,11 @@ let start = 0;
 var selectedOption;
 var player1Name;
 var player2Name;
-var clicksound = new Audio("click.mp3");
-var gamesound = new Audio("boop.mp3");
-var win = new Audio("winning.mp3");
-var reveal = new Audio("reveal.mp3");
-var tie = new Audio("tie_sound.mp3");
+var clicksound = new Audio("assets/click.mp3");
+var gamesound = new Audio("assets/boop.mp3");
+var win = new Audio("assets/winning.mp3");
+var reveal = new Audio("assets/reveal.mp3");
+var tie = new Audio("assets/tie_sound.mp3");
 var computerMoveDelay = 500;
 
 function handleGameTypeChange() {
